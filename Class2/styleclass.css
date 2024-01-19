@@ -1,0 +1,63 @@
+h1 {
+  background-color: bisque;
+  color: blueviolet;
+}
+
+p {
+  background-color: aquamarine;
+  color: cornflowerblue;
+  width: 50%;
+  margin: 0 auto;
+}
+
+div {
+  background: rgb(181, 141, 237);
+}
+
+a[href="https://www.google.com"]
+{
+  background-color: beige;
+}
+
+a,[href="https://www.google.com"]
+{
+  background-color: beige;
+}
+
+html body div h2 {
+  color: rgb(181, 141, 237);
+}
+
+div > h2 {
+  color: rgb(181, 141, 237);
+}
+
+div#my-id {
+  color: blue;
+}
+
+.my-class {
+  background-color: rgb(190, 99, 187);
+}
+
+.another-class {
+  font-size: 50px;
+}
+
+button {
+  transition: 1s all linear;
+}
+button:hover {
+  background-color: chocolate;
+  box-shadow: 4px 4px 5px 3px rgba(0, 0, 0, 0.5);
+  transform: translateX(10px) translateY(10px);
+}
+
+button:active {
+  border: 4px solid lightskyblue;
+}
+
+body {
+  background-color: rgb(88, 86, 86);
+  color: beige;
+}

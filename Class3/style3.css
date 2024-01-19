@@ -1,0 +1,14 @@
+.flex container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  width: 150px;
+  min-width: 150px;
+  height: 250px;
+  border: 2px solid blue;
+  border-radius: 25px;
+  background-color: antiquewhite;
+}
